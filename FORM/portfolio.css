@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.home{
+    display: flex;
+    background: url("me.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.intro{
+  font-size: 32px;
+  color:white;
+}
+
+.name{
+  font-size: 45px;
+  font-weight: bold;
+  color:  #74A12E;
+}
+
+
+#about{
+  padding: 25px;
+  padding-bottom: 80px;
+  background-color: #ffffff;
+}
+
+.title{
+  padding-top: 50px;
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  color: #74A12E;
+  
+}
+
+.about .me{
+  font-size: 25px;
+  font-weight: 600;
+  color: black ;
+  padding: 0 30px;
+}
+
+.about .occupation{
+  color: black;
+}
+
+.about .ako{
+  color: black;
+  font-weight: 20;
+  font-size: 12px;
+  padding: 0 30px;
+}
+
+#skills{
+  background-color: #74A12E;
+  padding-bottom: 50px;
+}
+
+.skills .title{
+  color: white;
+}
+
+.skills .sports{
+  font-size: 20px;
+  font-weight: 300;
+  color: black ;
+  padding: 0 50px;
+}
+
+
+#team .once {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  flex-wrap: wrap;
+}
+
+#team {
+  text-align: center;
+  padding-bottom: 40px;
+  background-color: white;
+}
+
+#team .enitsuj {
+  width: 25%;
+  min-width: 150px;
+  padding: 20px 25px;
+}
+
+#team .enitsuj img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#team .ken {
+  width: 25%;
+  min-width: 150px;
+  padding: 20px 25px;
+}
+
+#team .ken img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#team .lee {
+  width: 25%;
+  min-width: 150px;
+  padding: 20px 25px;
+}
+
+#team .lee img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+#team .aila {
+  width: 25%;
+  min-width: 150px;
+  padding: 20px 25px;
+}
+
+#team .aila img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+footer{
+  background-color: black;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 11px;
+}
+
+footer .pangalan{
+  color: #74A12E;
+}
+
+footer .group{
+  color: #74A12E;
+}
+
+
+/*pang CP na design*/
+/*pang CP na design*/
+@media (max-width: 500px){
+  
+  .intro{
+    font-size: 16px;
+  }
+  
+  .name{
+    font-size: 28px;
+  }
+  
+  .title{
+    font-size: 26px;
+  }
+  
+  .about .title{
+    padding-top: 5px;
+    padding-bottom: 0;
+  }
+  
+  .about .ako{
+    padding: 0;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  
+  .about .me{
+    padding: 0;
+    font-size: 18px;
+  }
+
+  .skills .title{
+    padding-top: 40px;
+  }
+  
+  .skills .sports{
+    padding: 0 30px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 500px){
+
+  #team{
+    font-size: 12px;
+  }
+  
+  #team .once{
+    align-items: center;
+    justify-items: center;
+  }
+
+  #team .enitsuj{
+    width: 50%;
+  }
+
+  #team .ken{
+    width: 50%;
+  }
+
+  #team .lee{
+    width: 50%;
+  }
+
+  #team .aila{
+    width: 50%;
+  }
+
+}
